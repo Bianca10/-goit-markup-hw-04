@@ -1,0 +1,354 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  color: #757575;
+}
+* {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.container-inner {
+  width: 1200px;
+  margin: 0 auto;
+  margin-left: 0%;
+}
+/*logo*/
+.logo::after {
+  content: "Studio";
+  color: black;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-2::after {
+  content: "Studio";
+  color: white;
+}
+.logo-2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  color: #2196f3;
+  text-decoration: none;
+  font-style: normal;
+}
+.logo-2 {
+  display: flex;
+  padding-top: 60px;
+}
+/*Header*/
+.page-header {
+  border-bottom: 1px solid;
+  color: rgba(236, 236, 236, 1);
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.navigation-list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  flex-grow: 1;
+}
+
+.right-navigation {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.list-a {
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.header-icons {
+  padding-right: 10px;
+  fill: rgba(117, 117, 117, 1);
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.list-one,
+.unstyled-list {
+  list-style: none;
+}
+
+.hover-part:hover {
+  color: #2196f3;
+}
+.right-navigation li a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+/*Hero Section*/
+.hero-section {
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  color: #ffffff;
+  height: 120px;
+  width: 696px;
+  text-align: center;
+  display: flex;
+}
+
+.button-style {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: #2196f3;
+  box-sizing: border-box;
+  padding: 10px 19px 10px 20px;
+}
+
+.button-style:hover {
+  color: white;
+}
+.buttons:hover {
+  color: white;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: #2196f3;
+}
+
+/*Middle Sectioon*/
+.middle-section {
+  background-color: #e5e5e5;
+}
+
+.text-section-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+.middle-icons {
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  align-items: center;
+  justify-content: center;
+}
+.backgound-mid-icons {
+  display: flex;
+  height: 120px;
+  width: 270px;
+  background-color: rgba(245, 244, 250, 1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.subtitle-section {
+  font-weight: 700;
+  line-height: 1, 14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text-section {
+  line-height: 1, 71;
+  height: 75px;
+  width: 270px;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+/*Our Work*/
+.our-work-images {
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.ourwork-section {
+  background-color: #e5e5e5;
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+.box-section {
+  box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*OurTime*/
+.ourtime-section {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+}
+.our-time-images {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.name-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  color: #212121;
+  line-height: 1, 18;
+  margin-top: 30px;
+  margin-right: 92px;
+  margin-left: 92px;
+}
+.name {
+  white-space: nowrap;
+}
+.role-section {
+  font-size: 16px;
+  line-height: 1, 18;
+  margin: 10px 61px 30px 62px;
+}
+/*Footer*/
+.footer-section {
+  background-color: #2f303a;
+}
+.adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 28px;
+  margin-bottom: 60px;
+  padding-inline-start: 0px;
+}
+.adress-section {
+  line-height: 1, 14;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+}
+.mail-section {
+  line-height: 1, 14;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+.tel-section {
+  line-height: 1, 14;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/*Buttons Portfolio*/
+.buttons-section .photos-section {
+  background: #e5e5e5;
+}
+
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62x;
+  color: #212121;
+}
+.button-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 6px 22px;
+}
+.buttons-section {
+  padding-top: 100px;
+  padding-bottom: 56px;
+}
+
+/*Cards section*/
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.job-section {
+  font-size: 16px;
+  line-height: 1, 85;
+  margin: 4px 24px 20px 24px;
+}
+.cards-images {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+.cards-items {
+  border: 1px solid rgba(238, 238, 238, 1);
+}
