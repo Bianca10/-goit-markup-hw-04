@@ -16,13 +16,15 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 auto;
 }
 .container-inner {
   width: 1200px;
   margin: 0 auto;
   margin-left: 0%;
+  justify-content: center;
 }
+
 /*logo*/
 .logo::after {
   content: "Studio";
@@ -92,10 +94,9 @@ body {
   fill: rgba(117, 117, 117, 1);
 }
 
-.header {
-  background-color: #ffffff;
+.header-icons:hover {
+  fill: rgba(33, 150, 243, 1);
 }
-
 .list-one,
 .unstyled-list {
   list-style: none;
@@ -113,7 +114,6 @@ body {
 }
 /*Hero Section*/
 .hero-section {
-  background-color: #2f303a;
   display: flex;
   flex-direction: column;
   padding-bottom: 200px;
@@ -127,7 +127,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -193,6 +198,9 @@ body {
   align-items: center;
   border-radius: 4px;
 }
+.backgound-mid-icons:hover {
+  fill: rgba(33, 150, 243, 1);
+}
 .subtitle-section {
   font-weight: 700;
   line-height: 1, 14;
@@ -213,7 +221,6 @@ body {
 .our-work-images {
   display: flex;
   gap: 30px;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .ourwork-section {
@@ -269,6 +276,55 @@ body {
   line-height: 1, 18;
   margin: 10px 61px 30px 62px;
 }
+.ul-icons-ourtime {
+  display: flex;
+  gap: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.socialmedia-icon-ourtime {
+  display: flex;
+  justify-content: center;
+}
+.backgound-ourtime-icons {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  fill: rgba(175, 177, 184, 1);
+}
+.backgound-ourtime-icons:hover {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+/*Regular*/
+.regular-icons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.backgrouns-regular-icons {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  background-color: white;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  fill: rgba(175, 177, 184, 1);
+}
+.backgrouns-regular-icons:hover {
+  fill: #2196f3;
+}
+.regular-customers {
+  padding-bottom: 94px;
+}
 /*Footer*/
 .footer-section {
   background-color: #2f303a;
@@ -299,7 +355,43 @@ body {
   text-decoration: none;
   font-style: normal;
 }
-
+.footer-right-title {
+  font-weight: 700px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 75px;
+  font-style: normal;
+}
+.footer-right {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 96px;
+  padding-top: 20px;
+  padding-inline-start: 0;
+}
+.footer-list-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.adress-container {
+  display: flex;
+  gap: 94px;
+}
+.background-footer-icons {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+.background-footer-icons:hover {
+  background: #2196f3;
+}
 /*Buttons Portfolio*/
 .buttons-section .photos-section {
   background: #e5e5e5;
@@ -349,6 +441,11 @@ body {
   margin-bottom: 94px;
 }
 
+.cards-items:hover {
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .cards-items {
   border: 1px solid rgba(238, 238, 238, 1);
 }
